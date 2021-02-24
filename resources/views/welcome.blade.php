@@ -8,7 +8,7 @@
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="{{ asset('CSS/normalize.css') }}">
-    <link rel="stylesheet" href="{{ asset('fontawesome-free-5.15.2-web/css/all.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="{{ asset('CSS/style.css') }}">
 
@@ -100,16 +100,14 @@
         <div class="row">
             <div class="row">
                 <div class="col s8">
-                    <div class="col s12">
-                        <p><span>¿EMPEZAMOS?</span></p>
-                        <strong>Solo tienes que seguir estos tres sencillos pasos: </strong>
-                        <ol class="ol-animate">
-                            <li>Contáctanos</li>
-                            <li>Pregúntanos</li>
-                            <li>Platícanos</li>
-                        </ol>
-                        <p>Cuéntanos  tu caso para que nuestros expertos te orienten y puedas abordar el tema de la mejor manera. Si tu ser querido está de acuerdo puede ingresar a nuestras instalaciones a cualquier hora los 365 días del año.</p>
-                    </div>
+                    <p><span>¿EMPEZAMOS?</span></p>
+                    <strong>Solo tienes que seguir estos tres sencillos pasos: </strong>
+                    <ol class="ol-animate">
+                        <li>Contáctanos</li>
+                        <li>Pregúntanos</li>
+                        <li>Platícanos</li>
+                    </ol>
+                    <p>Cuéntanos  tu caso para que nuestros expertos te orienten y puedas abordar el tema de la mejor manera. Si tu ser querido está de acuerdo puede ingresar a nuestras instalaciones a cualquier hora los 365 días del año.</p>
                 </div>
                 <form class="col s4 blue darken-1">
                     <div class="row form-contact">
