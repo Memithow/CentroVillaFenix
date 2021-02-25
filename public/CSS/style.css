@@ -67,8 +67,8 @@ nav a{
     line-height: 90px !important;
 }
 
-.carousel{
-    height: 50vh !important;
+.carousel-slider{
+    height: 60vh !important;
     background-image: url("../Img/3ff55080-3309-441d-b36b-bdb57efb562b.JPG");
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,6 +77,17 @@ nav a{
 
 .carousel-item{
     background-color: rgba(0,0,0,0.6) !important;
+}
+
+.carousel-galery{
+    height: 285px;
+    margin-bottom: 40px;
+}
+
+.carousel-galery .carousel-item{
+    height: 150px;
+    width: 250px;
+    top: 0px;
 }
 
 .title-slider{
@@ -108,7 +119,7 @@ nav a{
     text-align: center;
 }
 
-.cta span{
+.cta span a{
     font-size: 25px;
     font-weight: 500;
 }

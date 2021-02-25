@@ -93,6 +93,13 @@
             <div class="row">
                 <div class="col s12">
                     <span><a href="#">Conoce nuestras instalaciones</a></span><br><br>
+                    <div class="carousel carousel-galery">
+                        <a class="carousel-item" href="#one!"><img src="{{ asset('Img/08c0773b-73d6-4d1b-88b1-aa121533a75b.JPG') }}"></a>
+                        <a class="carousel-item" href="#two!"><img src="{{ asset('Img/08c0773b-73d6-4d1b-88b1-aa121533a75b.JPG') }}"></a>
+                        <a class="carousel-item" href="#three!"><img src="{{ asset('Img/08c0773b-73d6-4d1b-88b1-aa121533a75b.JPG') }}"></a>
+                        <a class="carousel-item" href="#four!"><img src="{{ asset('Img/08c0773b-73d6-4d1b-88b1-aa121533a75b.JPG') }}"></a>
+                        <a class="carousel-item" href="#five!"><img src="{{ asset('Img/08c0773b-73d6-4d1b-88b1-aa121533a75b.JPG') }}"></a>
+                    </div>
                     <strong>Con nosotros puedes lograrlo en 1, 2, 4 o 17 semanas.</strong>
                 </div>
             </div>
@@ -135,6 +142,10 @@
                 </div>
             </form>
         </div>
+    </div>
+
+    <div class="valores">
+        <div></div>
     </div>
 
     <div class="container">
@@ -319,22 +330,32 @@
     });
 
     document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.carousel');
-        var instances = M.Carousel.init(elems, {
+        var carrusel_slider = document.querySelectorAll('.carousel-slider');
+        var instances = M.Carousel.init(carrusel_slider, {
             duration: 200,
             fullWidth: true,
             indicators: true,
         });
+
+        var carrusel_gallery = document.querySelectorAll('.carousel-galery');
+        var instances = M.Carousel.init(carrusel_gallery, {
+            duration: 1000,
+            fullWidth: false,
+            indicators: false,
+            noWrap: false,
+            dist: -50,
+            shift: 50,
+        });
     });
 
-    //ciclo();
+    ciclo();
 
     function ciclo() {
         setTimeout(()=> {
             var instance = M.Carousel.getInstance(document.querySelector('.carousel'));
             instance.next();
             ciclo();
-        }, 7000);
+        }, 10000);
     }
 
 
