@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Compiled and minified CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('CSS/normalize.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -64,7 +66,7 @@
     <section>
         <div class="carousel carousel-slider center">
             <div class="carousel-item red white-text" href="#one!">
-                <h2 class="title-slider">Clínica de Rehabilitación Hacienda Santa Clara A.C.</h2>
+                <h2 class="title-slider">Clínica de Rehabilitación<br>Centro Villa Fenix</h2>
             </div>
             <div class="carousel-item amber white-text" href="#two!">
                 <h2 class="title-slider">Conoce nuestras instalaciones</h2>
@@ -97,61 +99,71 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="row">
-                <div class="col s8">
-                    <p><span>¿EMPEZAMOS?</span></p>
-                    <strong>Solo tienes que seguir estos tres sencillos pasos: </strong>
-                    <ol class="ol-animate">
-                        <li>Contáctanos</li>
-                        <li>Pregúntanos</li>
-                        <li>Platícanos</li>
-                    </ol>
-                    <p>Cuéntanos  tu caso para que nuestros expertos te orienten y puedas abordar el tema de la mejor manera. Si tu ser querido está de acuerdo puede ingresar a nuestras instalaciones a cualquier hora los 365 días del año.</p>
-                </div>
-                <form class="col s4 blue darken-1">
-                    <div class="row form-contact">
-                        <span class="white-text">Envianos un mensaje</span>
-                        <div class="input-field col s12">
-                            <input id="nombre" type="text" class="validate">
-                            <label for="nombre">Nombre</label>
-                        </div>
-                        <div class="input-field col s12">
-                            <input id="telefono" type="text" class="validate">
-                            <label for="telefono">Teléfono</label>
-                        </div>
-                        <div class="input-field col s12">
-                            <input id="email" type="email" class="validate">
-                            <label for="email">Email</label>
-                        </div>
-                        <div class="input-field col s12">
-                            <textarea id="mensaje" class="materialize-textarea" data-length="500"></textarea>
-                            <label for="mensaje">Mensaje</label>
-                        </div>
-                        <div class="col s12">
-                            <button class="waves-effect waves-light btn">Enviar</button>
-                        </div>
-                    </div>
-                </form>
+        <div class="row valign-wrapper">
+            <div class="col s8">
+                <p><span>¿EMPEZAMOS?</span></p>
+                <strong><b>¿Quieres ayuda?</b> Solo tienes que seguir estos tres sencillos pasos: </strong>
+                <ol class="ol-animate">
+                    <li>Contáctanos</li>
+                    <li>Pregúntanos</li>
+                    <li>Platícanos</li>
+                </ol>
+                <p>Cuéntanos  tu caso para que nuestros expertos te orienten y puedas abordar el tema de la mejor manera. Si tu ser querido está de acuerdo puede ingresar a nuestras instalaciones a cualquier hora los 365 días del año.</p>
             </div>
+            <form class="col s4 blue darken-1">
+                <div class="row form-contact">
+                    <span class="white-text">Envianos un mensaje</span>
+                    <div class="input-field col s12">
+                        <input id="nombre" type="text" class="validate">
+                        <label for="nombre">Nombre</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="telefono" type="text" class="validate">
+                        <label for="telefono">Teléfono</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <textarea id="mensaje" class="materialize-textarea" data-length="500"></textarea>
+                        <label for="mensaje">Mensaje</label>
+                    </div>
+                    <div class="col s12">
+                        <button class="waves-effect waves-light btn">Enviar</button>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 
     <div class="container">
-        <div class="row middle-content z-depth-5">
-            <div class="col s12 m6">
-                <span>¿Quién puede ingresar?</span>
-                <p>Nuestras instalaciones están optimizadas para recibir a una amplia variedad de personas. Puedes hablarle de nosotros a tu hijo o hija, a tu esposo o esposa, a tu padre o tu madre, a tus amigos y hasta a tus vecinos. Ten por seguro que aquí se sentirán protegidos.</p>
+        <div class="row">
+            <div class="col l12 m12 z-depth-5 my-50">
+                <div class="middle-content">
+                    <div class="row valign-wrapper">
+                        <div class="col s12 m6 middle-content-text">
+                            <span>¿Quién puede ingresar?</span>
+                            <p>Nuestras instalaciones están optimizadas para recibir a una amplia variedad de personas. Puedes hablarle de nosotros a tu hijo o hija, a tu esposo o esposa, a tu padre o tu madre, a tus amigos y hasta a tus vecinos. Ten por seguro que aquí se sentirán protegidos.</p>
+                        </div>
+                        <div class="col s12 m6 img-ingresar">
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="col s12 m6 img-ingresar">
-            </div>
-        </div>
-        <div class="row middle-content z-depth-5">
-            <div class="col s12 m6 img-querido">
-            </div>
-            <div class="col s12 m6">
-                <span>¿Tu ser querido no quiere venir?</span>
-                <p>¡No te preocupes! Nosotros te orientamos acerca de cómo proceder de forma positiva a través de un <b>sustento profesional de intervención en crisis</b>, porque todos merecemos un mejor estilo de vida.</p>
+            <div class="col l12 m12 z-depth-5">
+                <div class="middle-content">
+                    <div class="row valign-wrapper">
+                        <div class="col s12 m6 img-querido">
+                        </div>
+                        <div class="col s12 m6 middle-content-text">
+                            <span>¿Tu ser querido no quiere venir?</span>
+                            <p>¡No te preocupes! Nosotros te orientamos acerca de cómo proceder de forma positiva a través de un <b>sustento profesional de intervención en crisis</b>, porque todos merecemos un mejor estilo de vida.</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
@@ -160,8 +172,9 @@
         <div class="container">
             <div class="row">
                 <div class="col s12">
-                    <strong>Tratamiento de trastornos emocionales y conductas autodestructivas.</strong>
-
+                    <strong><b>Tratamiento de trastornos emocionales y conductas autodestructivas.</b></strong>
+                </div>
+                <div class="col s12">
                     <p>En la Clínica Hacienda Santa Clara A.C. Estamos comprometidos con nuestro trabajo y nos sentimos orgullosos de los resultados que ofrecemos.</p>
 
                     <p>Estamos seguros que las dependencias, así como cualquier trastorno emocional son consecuencia de una realidad poco satisfactoria y que existe el impulso de huir de esa realidad, así como de cualquier situación que los pudiera haber originado como eventos no gratos del pasado, duelos no resueltos, resentimientos, culpas, miedos, etc.</p>
@@ -180,6 +193,10 @@
                 <p>Estamos conformados por un equipo interdisciplinario de profesionistas en las áreas de psicología, medicina, terapia familiar, nutrición, acondicionamiento físico y meditación. Todos con la única finalidad de sacar adelante al paciente para que pueda integrarse exitosamente a su entorno familiar, laboral y social.</p>
             </div>
         </div>
+    </div>
+
+    <div class="profecionistas">
+
     </div>
 
     <div class="container">
@@ -203,7 +220,7 @@
         </div>
     </div>
 
-    <div class="container">
+    {{--<div class="container">
         <div class="row">
             <div class="col s12">
                 <span>¿QUIÉNES SOMOS?</span>
@@ -250,7 +267,7 @@
                 <p>Comunícate para recibir atención por parte de un calificado grupo de profesionales.</p>
             </div>
         </div>
-    </div>
+    </div>--}}
 </section>
 
 <footer class="page-footer blue darken-1">
