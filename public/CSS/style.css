@@ -10,6 +10,12 @@ span{
     font-weight: 700;
     color: #1b1b1b;
     font-size: 25px;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 strong{
@@ -35,6 +41,11 @@ h1{
     font-size: 53px !important;
     color: #757575;
     font-weight: 400;
+}
+
+h1 b{
+    color: #3f51b5;
+    text-transform: uppercase;
 }
 
 .social-media{
@@ -76,7 +87,7 @@ nav a{
 }
 
 .carousel-item{
-    background-color: rgba(0,0,0,0.6) !important;
+    background-color: rgba(0,0,0,0.3) !important
 }
 
 .carousel-galery{
@@ -108,7 +119,6 @@ nav a{
     height: 5px;
     width: 60%;
     background-color: #616161;
-    argin-bottom: 40px;
     margin-bottom: 40px;
 }
 
@@ -120,13 +130,18 @@ nav a{
 }
 
 .cta span a{
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 35px;
+    font-weight: 600;
 }
 
 .cta strong{
     font-size: 25px;
     font-weight: 500;
+}
+
+.cta strong:hover{
+    font-size: 35px;
+    font-weight: 600;
 }
 
 .ol-animate > li:hover{
@@ -169,10 +184,17 @@ nav a{
     background-repeat: no-repeat;
 }
 
-.sitemap >ul > li:hover{
+.sitemap >ul > li:hover > a{
     font-size: 1.5rem;
 }
 
+.datos-contacto{
+    padding-left: 62px !Important;
+}
+
+.divider{
+    margin: 20px 0;
+}
 
 
 /* label color */
