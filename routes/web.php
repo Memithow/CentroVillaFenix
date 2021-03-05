@@ -15,20 +15,20 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('Layouts.Home');
-});
+})->name('home');
 
 Route::get('contacto', function () {
     return view('Layouts.Contacto');
-});
+})->name('constacto');
 
 Route::get('tratamiento', function () {
     return view('Layouts.Tratamiento');
-});
+})->name('tratamiento');
 
 Route::get('instalaciones', function () {
     return view('Layouts.Instalaciones');
-});
+})->name('instalaciones');
 
 Route::get('nosotros', function () {
     return view('Layouts.Nosotros');
-});
+})->name('nosotros');

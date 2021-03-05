@@ -7,159 +7,83 @@
 
     <!-- Compiled and minified CSS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('CSS/normalize.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="{{ asset('CSS/bootstrap.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('CSS/style.css') }}">
 
     <title>Centro Villa Fenix</title>
 </head>
 <body>
 <header>
-    <div class="row social-media blue lighten-5">
-        <div class="col s2 social">
-            <a href="#" class=""><i class="fab fa-facebook-f"></i></a>
-        </div>
-        <div class="col s10 contact">
-            <a href="mailto:info@primerpaso.org.mx" target="_blank"> <i class="fa fa-envelope"></i> info@villafenix.org.mx</a>
-            <a href="tel:5513128553" target="_blank"> <i class="fa fa-phone"></i> 5513128553 </a>
-            <a href="https://api.whatsapp.com/send?phone=5534358898&amp;text=Me podrían brindar información acerca de sus tratamientos de adicciones" target="_blank"> <i class="fab fa-whatsapp"></i> 5534358898 </a>
-        </div>
-    </div>
-
-    <div class="navbar-fixed" id="header">
-        <nav class="white lighten-1">
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo">
-                    <img src="{{ asset('Img/logo.jpg') }}" alt="Centro Villa Fenix Logo" width="90px" height="90px">
-                </a>
-
-                <a href="#" class="sidenav-trigger hamburger" data-target="mobile-nav">
-                    <i class="fas fa-bars grey-text"></i>
-                </a>
-
-                <a href="tel:5513128553" target="_blank"> <i class="fa fa-phone"></i> 5513128553 </a>
-
-                <a href="https://api.whatsapp.com/send?phone=5534358898&amp;text=Me podrían brindar información acerca de sus tratamientos de adicciones" target="_blank"> <i class="fa fa-whatsapp"></i> 5534358898 </a>
-
-                <ul class="right hide-on-med-and-down">
-                    <li><a class="grey-text" href="/">Home</a></li>
-                    <li><a class="grey-text" href="nosotros">Nosotros</a></li>
-                    <li><a class="grey-text" href="instalaciones">Instalaciones</a></li>
-                    <li><a class="grey-text" href="tratamiento">Tratamiento</a></li>
-                    <li><a class="grey-text" href="contacto">Contacto</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ route('home') }}">
+                <img src="{{ asset('Img/logo.jpg') }}" alt="Logo Centro Villa Fenix" width="90px" height="90px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="btn btn-menu active mx-3 my-3" href="{{ route('home') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-secondary mx-3 my-3" href="{{ route('nosotros') }}">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-secondary mx-3 my-3" href="{{ route('tratamiento') }}">Tratamiento</a>
+                    </li>
                 </ul>
             </div>
-        </nav>
-    </div>
-
-        <ul class="sidenav" id="mobile-nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="nosotros">Nosotros</a></li>
-            <li><a href="instalaciones">Instalaciones</a></li>
-            <li><a href="tratamiento">Tratamiento</a></li>
-            <li><a href="contacto">Contacto</a></li>
-        </ul>
-
-    <section>
-        <div class="carousel carousel-slider center">
-            <div class="carousel-item red white-text" href="#one!">
-                <h2 class="title-slider">Clínica de Rehabilitación<br>Centro Villa Fenix</h2>
-            </div>
-            <div class="carousel-item amber white-text" href="#two!">
-                <h2 class="title-slider">Conoce nuestras instalaciones</h2>
-                <a href="#" class="white-text">This is your second panel</a>
-            </div>
-            <div class="carousel-item green white-text" href="#two!">
-                <h2 class="title-slider">Con nosotros puedes lograrlo en 1, 2, 4 o 17 semanas.</h2>
-                <a href="#" class="white-text">This is your panel</a>
-            </div>
         </div>
-    </section>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+{{--        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>--}}
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">First slide</text></svg>
+                <div class="carousel-caption d-none d-md-block">
+                    <strong>Clínica de Rehabilitación</strong>
+                    <h1>Centro de Villa Fenix A.C.</h1>
+                </div>
+            </div>
+{{--            <div class="carousel-item">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Threrd slide</text></svg>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>--}}
+        </div>
+    </div>
 </header>
 
 <section>
     @yield('content')
 </section>
 
-<footer class="page-footer blue darken-1">
-    <div class="container">
-        <div class="row valign-wrapper">
-            <div class="col l6 s12 valign-wrapper">
-                <img src="{{ asset('Img/logo.jpg') }}" alt="logo" width="100px" height="100px">
-            </div>
-            <div class="col l4 offset-l2 s12 sitemap">
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="/">Home</a></li>
-                    <li><a class="grey-text text-lighten-3" href="nosotros">Nosotros</a></li>
-                    <li><a class="grey-text text-lighten-3" href="instalaciones">Instalaciones</a></li>
-                    <li><a class="grey-text text-lighten-3" href="tratamiento">Tratamiento</a></li>
-                    <li><a class="grey-text text-lighten-3" href="contacto">Contacto</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright">
-        <div class="container">
-            © 2021 Centro Villa Fenix
-        </div>
-    </div>
 
-    <div id="top-of-site-pixel-anchor"></div>
-</footer>
 <!-- Compiled and minified JavaScript -->
-<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="{{ asset('JS/bootstrap.min.js') }}"></script>
 
 <script>
-    $(document).ready(function (){
-        $(".dropdown-trigger").dropdown();
-        $('.sidenav').sidenav();
 
-        $(document).ready(function() {
-            $('textarea').characterCounter();
-        });
-    });
-
-    document.addEventListener('DOMContentLoaded', function() {
-        var carrusel_slider = document.querySelectorAll('.carousel-slider');
-        var instances = M.Carousel.init(carrusel_slider, {
-            duration: 200,
-            fullWidth: true,
-            indicators: true,
-        });
-
-        var carrusel_gallery = document.querySelectorAll('.carousel-galery');
-        var instances = M.Carousel.init(carrusel_gallery, {
-            duration: 1000,
-            fullWidth: false,
-            indicators: false,
-            noWrap: false,
-            dist: -50,
-            shift: 50,
-        });
-    });
-
-    ciclo();
-
-    function ciclo() {
-        setTimeout(()=> {
-            var instance = M.Carousel.getInstance(document.querySelector('.carousel'));
-            instance.next();
-            ciclo();
-        }, 10000);
-    }
-
-
-    // When the user scrolls down 50px from the top of the document, resize the header's font size
-    window.onscroll = function() {
-        if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-            document.getElementById("header").style.marginTop = "-30px";
-        } else {
-            document.getElementById("header").style.marginTop = "0px";
-        }
-    };
 
 </script>
 </body>
