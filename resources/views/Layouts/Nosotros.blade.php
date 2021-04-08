@@ -1,52 +1,53 @@
 @extends('welcome')
 
 @section('content')
-    <div class="container">
-        <div class="row">
-            <div class="col s12">
-                <span>¿QUIÉNES SOMOS?</span>
-                <p>Clínica de Rehabilitación Hacienda Santa Clara A.C., es un centro especializado que ayuda a diferentes personas a recuperar su calidad de vida.</p>
+    <div class="container mx-width">
+        <div class="row pt-5 px-5 mt-5">
+            <div class="col-lg-4 d-flex justify-content-center">
+                <div class="mision-img rounded-3"></div>
+            </div>
+            <div class="col-lg-8">
+                <h3 class="fw-bold text-red">Misión</h3>
+                <p>Asistir en el desarrollo del ser humano fomentando los cambios que este requiera para promover patrones de vida positivos y que le permitan satisfacer sus necesidades de una manera saludable.</p>
+            </div>
+        </div>
+        <div class="row px-5 pb-5 mt-ofset mt-sm-important">
+            <div class="col-lg-8 text-end">
+                <h3 class="fw-bold text-red">Visión</h3>
+                <p>Llevar a los internos a una rehabilitación con resultados reales y  bajas probabilidades de recaída, así como el fortalecimiento de su autoestima, dignidad y seguridad mediante un apoyo multidisciplinario.</p>
+            </div>
+            <div class="col-lg-4 d-flex justify-content-center">
+                <div class="vision-img rounded-3"></div>
+            </div>
+        </div>
 
-                <p>Nuestros terapeutas están dedicados a  guiar a los pacientes con tratamiento de dependencias orgánicas o psicológicas a través de tratos cálidos y hogareños, en un ambiente amoroso, lleno de paz, dignidad y mucho respeto.</p>
+        <div class="row my-5">
+            <div class="col-sm-12 text-center">
+                <h2 class="fw-bold mb-3 text-red">¿CÓMO LO LOGRAMOS?</h2>
+                <p>Trabajamos en un ambiente de <b>respeto</b> y <b>confidencialidad</b> donde los principios de <b>empatía</b>, <b>dignidad</b>, <b>calidez</b> y <b>hermandad</b> son fundamentales para guiar  nuestro tratamiento terapéutico mixto.</p>
+            </div>
+        </div>
 
-                <p>Para alcanzar los objetivos usamos el sustento profesional de intervención en crisis para sensibilizar a la familia y al paciente con la finalidad de acelerar y lograr el internamiento de forma voluntaria e inmediata.</p>
+        <div class="row mb-5">
+            <div class="col-sm-12">
+                <h2 class="fw-bold mb-3 text-red">Historia</h2>
 
-                <p>Durante el proceso de desintoxicación y estabilización ofrecemos seguimiento terapéutico para el paciente y familiares. Tenemos médicos expertos en neurología de las adicciones, psicólogos, terapeutas certificados, consejeros espirituales, nutriólogo, enfermera y terapeutas alternativos.</p>
+                <p>Centro Villa Fénix A.C. tiene su origen en el estado de Morelos aunque sus raíces se encuentran en Villa Nicolás Romero, Estado de México.</p>
 
-                <p>Como podrás darte cuenta, estamos más que comprometidos no solo con el paciente, también con sus familiares y amigos, por lo que llevamos cada caso con completa confidencialidad. </p>
+                <p>Hace más de 20 años nuestro director, el Sr. Héctor Almaguer Zúñiga inicia este camino de manera personal al vivenciar de cerca estar inmerso en su propia situación de adicción. Para el año 2000, Héctor empieza su evolución a partir del trabajo psicológico y con ayuda del programa de AA.</p>
 
-                <p>En Clínica de Rehabilitación Hacienda Santa Clara A.C.,
-                    Estamos ubicados en el municipio de Ecatepec de Morelos, Estado de México. (INSERTAR DIRECCIÓN COMPLETA)</p>
+                <p><img src="{{ asset('Img/hector.jpg') }}" alt="" width="400px" align="right" class="m-4"> En aquellos ayeres la metodología tenía muchas carencias y ausencias, no había psicólogos preparados en adicciones, consejeros certificados para el abordaje de esta enfermedad, personal médico que atendiera la salud y mucho menos un trato apegado a los derechos humanos, lo cual promovía conflictos, desacuerdos, molestias puesto que se creó otro paradigma que fracturó los “mitos” que durante muchos años se habían sostenido en cómo debía trabajarse con usuarios a drogas y trastornos mentales en tratamientos residenciales.
+                </p>
 
-                <p>Acércate y conoce los beneficios de nuestro tratamiento de adicciones. En Clínica de Rehabilitación Hacienda Santa Clara A.C. entendemos el dolor y frustración tuyos y de tu ser querido, pero recuerda: NO ESTÁN SOLOS. </p>
+                <p>En el año 2010 se toma la decisión de llevar la “semilla” de lo aprendido a Villa Nicolás Romero donde se inicia una labor a través de ofrecer a la población un centro con personal profesionalizado en el abordaje de las adicciones, un trato digno en cuanto al respeto del ser humano, que las necesidades básicas de los usuarios tengan que ser debidamente resueltas y así dar inicio a una labor que ha llevado a Centro Villa Fénix A.C. ser uno de las instituciones dedicadas al tratamiento de las adicciones más reconocidas en el municipio de Villa Nicolás</p>
+
+                <p>En nuestras instalaciones contamos con áreas específicas para mujeres y hombres, desde el ingreso el usuario y su familia son recibidos con cordialidad y respeto; abrimos nuestras puertas para que las personas puedan conocer directamente nuestras instalaciones.</p>
+
+                <p>Hoy en día Centro Villa Fénix A.C. es una realidad, creemos firmemente que la psicología y el programa de AA se complementan y enriquecen, el camino ha sido difícil pero somos una institución que sigue creciendo y ofreciendo lo mejor.</p>
+
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col s12">
-                <h3>¡ALÉJATE DE LOS VICIOS! </h3>
-
-                <p>Encuentra tratamiento de adicciones con nosotros.</p>
-
-                <p>Clínica de Rehabilitación Hacienda Santa Clara A.C., es una de las mejores en el ramo. Atendemos todas las solicitudes de ayuda, impulsando un estilo de vida saludable en los miembros de nuestra sociedad.</p>
-
-                <p>Manejamos tratamientos especializados para los siguientes problemas: </p>
-
-                <ul>
-                    <li>Alcoholismo</li>
-                    <li>Anorexia</li>
-                    <li>Depresión</li>
-                    <li>Drogadicción</li>
-                    <li>Bulimia</li>
-                    <li>Ludopatía</li>
-                </ul>
-
-                <p>Somos el centro de rehabilitación más efectivo en Ecatepec de Morelos, Estado de México (INSERTAR DIRECCIÓN COMPLETA)</p>
-                <p>En Clínica de Rehabilitación Hacienda Santa Clara A.C. recibe información detallada de los servicios que brindamos.</p>
-                <p>Comunícate para recibir atención por parte de un calificado grupo de profesionales.</p>
-            </div>
-        </div>
-    </div>
+    @include('partials.btnContacto')
 @endsection

@@ -23,10 +23,6 @@ strong{
     color: #bc1823;
 }
 
-.bg-red{
-    background-color: #bc1823;
-}
-
 .bg-azul-claro{
     background-color: rgb(177, 212, 224) !important;
 }
@@ -144,20 +140,8 @@ span{
     background-color: transparent;
 }
 
-.arrows div > .triangle-blue{
-    width: 0;
-    height: 0;
-    border-top: 15px solid transparent;
-    border-left: 20px solid rgb(177, 212, 224);
-    border-bottom: 15px solid transparent;
-    background-color: transparent;
-}
-
 .arrows p {
     margin: 0px;
-    text-transform: uppercase;
-    font-size: .86rem !important;
-    font-weight: 500;
 }
 
 .crisis{
@@ -266,19 +250,6 @@ span{
     width: 200px;
     height: 200px;
     background-color: silver;
-    background-size: contain;
-}
-
-.hector-rep{
-    background-image: url("../Img/hector-rep.jpeg");
-}
-
-.carlos-rep{
-    background-image: url("../Img/carlos-rep.jpeg");
-}
-
-.horacio-rep{
-    background-image: url("../Img/horacio-rep.jpeg");
 }
 
 /*Tratamiento*/
@@ -334,32 +305,7 @@ span{
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
-.change-dropdown .bg-azul-claro{
-    background-color: #1a237e !important;
-}
-
-.change-dropdown .triangle-blue{
-    border-left: 20px solid #1a237e !important;
-}
-
-.change-dropdown .arrows p{
-    color: #bc1823 !important;
-}
-
-.change-dropdown span{
-    color: white !important;
-}
-
 /*Atendemos*/
-.tooltip-inner{
-    background-color: rgb(177, 212, 224) !important;
-    color: dimgrey;
-}
-
-.tooltip-arrow::before {
-    border-right-color: rgb(177, 212, 224)  !important;
-}
-
 .atendemos-text{
     padding: 62px 0;
 }

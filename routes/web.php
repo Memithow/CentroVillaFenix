@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+//use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('contacto', function () {
     return view('Layouts.Contacto');
-})->name('constacto');
+})->name('contacto');
 
 Route::get('tratamiento', function () {
     return view('Layouts.Tratamiento');
@@ -32,3 +32,14 @@ Route::get('instalaciones', function () {
 Route::get('nosotros', function () {
     return view('Layouts.Nosotros');
 })->name('nosotros');
+
+Route::get('a-quien-atendemos', function () {
+    return view('Layouts.Atendemos');
+})->name('atendemos');
+
+Route::get('representantes', function () {
+    return view('Layouts.Representantes');
+})->name('representantes');
+
+
+Route::post('form-contact-mail', 'App\Http\Controllers\ContractController@sendMail')->name('formContactMail');

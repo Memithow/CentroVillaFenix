@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="82f27a14-6986-4701-aba1-06a8c3e797c7" name="Desarollo" url="http://desarrollo.centrovillafenix.org.mx">
+        <fileTransfer rootFolder="/CentroVillaFenixDesarrollo" host="ftp.centrovillafenix.org.mx" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="0e7f6686-8c84-4ef0-b16a-dcc62a11b43f" name="Produccion" url="http://centrovillafenix.org.mx">
+        <fileTransfer rootFolder="/CentroVillaFenix" host="ftp.centrovillafenix.org.mx" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

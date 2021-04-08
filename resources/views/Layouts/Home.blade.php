@@ -15,13 +15,13 @@
 
             <div class="col-sm-12 d-flex my-4 justify-content-center arrows">
                 <div class="mx-2">
-                    <div>CONTÁCTANOS</div><div class="triangle"></div>
+                    <div class="text-center fw-bolder text-white bg-dark">CONTÁCTANOS</div><div class="triangle"></div>
                 </div>
                 <div class="mx-2">
-                    <div>PREGÚNTANOS</div><div class="triangle"></div>
+                    <div class="text-center fw-bolder text-white bg-dark">PREGÚNTANOS</div><div class="triangle"></div>
                 </div>
                 <div class="mx-2">
-                    <div>PLATÍCANOS</div><div class="triangle"></div>
+                    <div class="text-center fw-bolder text-white bg-dark">PLATÍCANOS</div><div class="triangle"></div>
                 </div>
             </div>
 
@@ -34,25 +34,45 @@
         <div class="col-sm-12 col-lg-1 my-3 text-center"></div>
 
         <div class="col-sm-12 col-lg-3 align-self-center">
-            <div class="rounded-3 py-3 form-contact px-2">
-                <div class="mb-3">
-                    <label for="nombre" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" placeholder="">
+            <form action="">
+                <div class="rounded-3 py-3 form-contact px-2">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label text-white">Nombre</label>
+                        <input type="text" class="form-control" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label text-white">Email</label>
+                        <input type="email" class="form-control" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label text-white">Mensaje</label>
+                        <textarea class="form-control"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-menu">Enviar</button>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" placeholder="">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                    <textarea class="form-control"></textarea>
-                </div>
-            </div>
+            </form>
         </div>
     </div>
 
-    <div class="row">
-        div.sa
+    <div class="row my-5">
+        <div class="col-md-6 col-lg-3 p-3 text-center enlaces-home">
+            <a href="{{ route('atendemos') }}"><div class="rounded-3 mx-auto enlace-atendemos"></div></a>
+            <span class="text-azul-marino">A quién <br>atendemos</span>
+        </div>
+        <div class="col-md-6 col-lg-3 p-3 text-center enlaces-home">
+            <a href="{{ route('representantes') }}"><div class="rounded-3 mx-auto enlace-representantes"></div></a>
+            <span class="text-azul-marino">Representantes</span>
+        </div>
+        <div class="col-md-6 col-lg-3 p-3 text-center enlaces-home">
+            <a href="{{ route('instalaciones') }}"><div class="rounded-3 mx-auto enlace-instalaciones"></div></a>
+            <span class="text-azul-marino">Instalaciones</span>
+        </div>
+        <div class="col-md-6 col-lg-3 p-3 text-center enlaces-home">
+            <a href="{{ route('nosotros') }}"><div class="rounded-3 mx-auto enlace-centro-v-f"></div></a>
+            <span class="text-azul-marino">Centro <br>Villa Fenix</span>
+        </div>
     </div>
 </div>
 @endsection
