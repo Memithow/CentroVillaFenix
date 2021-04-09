@@ -79,7 +79,8 @@
     <div class="row mb-5 d-flex justify-content-center">
         <div class="col-sm-10">
             <h2 class="fw-bold mb-3 text-red">OBJETIVO VILLA FÉNIX</h2>
-            <p class="text-end">El objetivo principal es la de ayudar a aquellas personas que sufren la enfermedad de la adicción y trastornos emocionales, a sus familias, guiándolos en la recuperación y ayudándolos a reinsertarse en la sociedad. Tras 20 años ofreciendo tratamiento para la adicción, la sede principal se encuentra en el municipio de Villa Nicolás Romero, Estado de México. Centro Villa Fénix A.C., cuenta con la infraestructura y personal profesionalizado que aseguran la continuidad de la ayuda a los pacientes durante las fases del tratamiento que ofrecemos. El tratamiento es individual grupal y familiar.</p>
+            <p class="text-end">El objetivo principal es ayudar a aquellas personas que sufren la enfermedad de la adicción y trastornos emocionales, asi como a su familias, guiándolos en la recuperación y ayudándolos a reinsertarse en la sociedad.
+                <br>Tras 20 años ofreciendo tratamiento para la adicción, la sede principal se encuentra en el municipio de Villa Nicolás Romero, Estado de México. Centro Villa Fénix A.C., cuenta con la infraestructura y personal profesionalizado que aseguran la continuidad de la ayuda a los pacientes durante las fases del tratamiento que ofrecemos. El tratamiento es <b>individual, grupal y familiar</b>.</p>
         </div>
     </div>
 
@@ -91,8 +92,8 @@
         </div>
         <div class="col-sm-12 col-md-5">
             <h3 class="fw-bold mb-3 text-red">VALORES VILLA FÉNIX</h3>
-            <p class="">El objetivo principal es la de ayudar a aquellas personas que sufren la enfermedad de la adicción y trastornos emocionales, a sus familias, guiándolos en la recuperación y ayudándolos a reinsertarse en la sociedad.</p>
-            <p>Tras 20 años ofreciendo tratamiento para la adicción, la sede principal se encuentra en el municipio de Villa Nicolás Romero, Estado de México. Centro Villa Fénix A.C., cuenta con la infraestructura y personal profesionalizado que aseguran la continuidad de la ayuda a los pacientes durante las fases del tratamiento que ofrecemos. El tratamiento es individual grupal y familiar.</p>
+            <p class="">Tenemos la certeza  de que lo más importante para la eficacia y eficiencia  del tratamiento son los derechos humanos fundamentales, que debemos respetar para la existencia humana y que deben rescatarse del usuario  a través de la aceptación del problema y la recuperación del mismo</p>
+            <p>Para efectos de que el individuo adquiera las herramientas necesarias para la reinserción a la familia y a la sociedad es indispensable tener siempre presentes nuestros valores principales, como son: </p>
         </div>
         <div class="col-sm-12 col-md-4">
             <ul class="list-style-none">

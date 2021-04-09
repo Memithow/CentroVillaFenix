@@ -7,13 +7,13 @@
                 <div class="mision-img rounded-3"></div>
             </div>
             <div class="col-lg-8">
-                <h3 class="fw-bold text-red">Misión</h3>
+                <h3 class="fw-bold text-red fs-2">MISIÓN</h3>
                 <p>Asistir en el desarrollo del ser humano fomentando los cambios que este requiera para promover patrones de vida positivos y que le permitan satisfacer sus necesidades de una manera saludable.</p>
             </div>
         </div>
         <div class="row px-5 pb-5 mt-ofset mt-sm-important">
             <div class="col-lg-8 text-end">
-                <h3 class="fw-bold text-red">Visión</h3>
+                <h3 class="fw-bold text-red fs-2">VISIÓN</h3>
                 <p>Llevar a los internos a una rehabilitación con resultados reales y  bajas probabilidades de recaída, así como el fortalecimiento de su autoestima, dignidad y seguridad mediante un apoyo multidisciplinario.</p>
             </div>
             <div class="col-lg-4 d-flex justify-content-center">
@@ -23,14 +23,14 @@
 
         <div class="row my-5">
             <div class="col-sm-12 text-center">
-                <h2 class="fw-bold mb-3 text-red">¿CÓMO LO LOGRAMOS?</h2>
-                <p>Trabajamos en un ambiente de <b>respeto</b> y <b>confidencialidad</b> donde los principios de <b>empatía</b>, <b>dignidad</b>, <b>calidez</b> y <b>hermandad</b> son fundamentales para guiar  nuestro tratamiento terapéutico mixto.</p>
+                <h2 class="fw-bold mb-3 text-azul-marino">¿CÓMO LO LOGRAMOS?</h2>
+                <p class="text-azul-darck">Trabajamos en un ambiente de <b>respeto</b> y <b>confidencialidad</b> donde los principios de <b>empatía</b>, <b>dignidad</b>, <b>calidez</b> y <b>hermandad</b> son fundamentales para guiar  nuestro tratamiento terapéutico mixto.</p>
             </div>
         </div>
 
         <div class="row mb-5">
             <div class="col-sm-12">
-                <h2 class="fw-bold mb-3 text-red">Historia</h2>
+                <h2 class="fw-bold mb-3 text-red text-end fs-1">HISTORIA</h2>
 
                 <p>Centro Villa Fénix A.C. tiene su origen en el estado de Morelos aunque sus raíces se encuentran en Villa Nicolás Romero, Estado de México.</p>
 
