@@ -15,6 +15,8 @@
     <link href="{{ asset('CSS/bootstrap.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('CSS/style.css') }}">
 
+    @yield('css')
+
     <title>Centro Villa Fenix</title>
 </head>
 <body>
@@ -37,6 +39,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="btn bg-lime text-white @if(Route::current()->getName() == 'tratamiento') btn-menu @endif  mx-3 my-3" href="{{ route('tratamiento') }}">Tratamiento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn bg-lime text-white @if(Route::current()->getName() == 'contacto') btn-menu @endif  mx-3 my-3" href="{{ route('contacto') }}">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -62,7 +67,7 @@
 
         <div class="carousel-wrap-title position-absolute">
             <strong>Clínica de Rehabilitación</strong>
-            <h1>Centro de Villa Fenix A.C.</h1>
+            <h1>Centro Villa Fenix A.C.</h1>
         </div>
 
         <div class="carousel-wrap-services position-absolute text-white text-center">
@@ -109,7 +114,7 @@
 </footer>
 
 <div class="fixed-bottom mb-5 px-3 icon-wp">
-    <a href="https://api.whatsapp.com/send?phone=34695685920&text=Hola,%20mi%20nombre%20es%20" target="_blank"><img src="{{ asset('Img/icon-wp.svg') }}" width="100px" alt=""></a>
+    <a href="https://api.whatsapp.com/send?phone=+525582855906&text=Hola,%20mi%20nombre%20es%20" target="_blank"><img src="{{ asset('Img/icon-wp.svg') }}" width="100px" alt=""></a>
 </div>
 
 <!-- Compiled and minified JavaScript -->

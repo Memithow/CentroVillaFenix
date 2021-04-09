@@ -139,7 +139,7 @@ span{
     width: 0;
     height: 0;
     border-top: 15px solid transparent;
-    border-left: 20px solid #212529;
+    border-left: 20px solid #070936;
     border-bottom: 15px solid transparent;
     background-color: transparent;
 }
@@ -209,7 +209,15 @@ span{
 }
 
 .enlace-instalaciones{
-    background-image: url("../Img/instalaciones.jpg");
+    background-image: url("../Img/representantes_prov.jpeg");
+}
+
+.bg-alul-darck{
+    background-color: #070936 !important;
+}
+
+.text-azul-darck{
+    color: #070936;
 }
 
 .enlace-instalaciones:hover{
@@ -228,6 +236,11 @@ span{
     transition: 4s;
     opacity: 0.9;
     background-attachment: local;
+}
+
+.list-style-none{
+    list-style: none;
+    margin: 0;
 }
 
 /*Nosotros*/
@@ -263,10 +276,13 @@ span{
 /*Representantes*/
 
 .representante-foto{
-    width: 200px;
-    height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
     background-color: silver;
-    background-size: contain;
+    background-size: cover;
+    background-position-x: center;
 }
 
 .hector-rep{
@@ -399,6 +415,15 @@ span{
     width:600px;
 }
 
+/*Instalaciones*/
+.instalaciones-item{
+    overflow: hidden;
+    height: 700px;
+}
+
+.text-black{
+    color: black !important;
+}
 
 @media only screen and (max-width: 1024px) {
     .slider-img{
@@ -457,5 +482,14 @@ span{
 
     .icon-wp{
         margin-bottom: 30px !important;
+    }
+
+    .instalaciones-item {
+        height: 240px;
+    }
+
+    .collapse-p{
+        margin-left: -240px;
+        margin-top: 60px;
     }
 }

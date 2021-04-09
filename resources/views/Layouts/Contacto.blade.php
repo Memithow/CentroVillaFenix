@@ -30,9 +30,8 @@
                 <address>Calle Ciprés, Lote 3 y 4, Zaragoza, <br>Villa Nicolás Romero, México</address>
                 <div class="divider mx-5"></div>
                 <span>Teléfonos</span>
-                <p>Hector Almaguer (Director) - 55 2254 8306 <br>
-                    Carlos Arzave (Sub-director)- 55 4619 5486 <br>
-                    Oficina - 55 5821 3104</p>
+                <p>Hector Almaguer (Director general) <br> 55 2254 8306 <br>
+                    Luis Horacio Vázquez (Responsable del área clínica) <br> 55 8285 5906</p>
                 <div class="divider mx-5"></div>
                 <span>Correo</span><br>
                 <a href="mailto:info@montefenix.org.mx">villafenixacinfo@gmail.com</a>
