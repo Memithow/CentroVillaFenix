@@ -72,6 +72,18 @@
                     <div class="carousel-item w-100 instalaciones-item">
                         <img height="100%" src="{{ asset('Img/Instalaciones/16.jpeg') }}">
                     </div>
+                    <div class="carousel-item w-100 instalaciones-item">
+                        <img height="100%" src="{{ asset('Img/Instalaciones/17.jpeg') }}">
+                    </div>
+                    <div class="carousel-item w-100 instalaciones-item">
+                        <img height="100%" src="{{ asset('Img/Instalaciones/18.jpeg') }}">
+                    </div>
+                    <div class="carousel-item w-100 instalaciones-item">
+                        <img height="100%" src="{{ asset('Img/Instalaciones/19.jpeg') }}">
+                    </div>
+                    <div class="carousel-item w-100 instalaciones-item">
+                        <img height="100%" src="{{ asset('Img/Instalaciones/20.jpeg') }}">
+                    </div>
                 </div>
                 <a class="carousel-control-prev text-black" href="#carouselExampleIndicators" role="button" data-slide="prev" onclick="car_ins.prev()">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

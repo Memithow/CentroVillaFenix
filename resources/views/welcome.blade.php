@@ -66,8 +66,8 @@
         </div>
 
         <div class="carousel-wrap-title position-absolute">
-            <strong>Clínica de Rehabilitación</strong>
-            <h1>Centro Villa Fenix A.C.</h1>
+            <strong class="shadow-title">Clínica de Rehabilitación</strong>
+            <h1 class="shadow-title">Centro Villa Fenix A.C.</h1>
         </div>
 
         <div class="carousel-wrap-services position-absolute text-white text-center">

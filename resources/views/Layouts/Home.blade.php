@@ -91,7 +91,8 @@
         </div>
         <div class="col-sm-12 col-md-5">
             <h3 class="fw-bold mb-3 text-red">VALORES VILLA FÉNIX</h3>
-            <p class="">El objetivo principal es la de ayudar a aquellas personas que sufren la enfermedad de la adicción y trastornos emocionales, a sus familias, guiándolos en la recuperación y ayudándolos a reinsertarse en la sociedad. Tras 20 años ofreciendo tratamiento para la adicción, la sede principal se encuentra en el municipio de Villa Nicolás Romero, Estado de México. Centro Villa Fénix A.C., cuenta con la infraestructura y personal profesionalizado que aseguran la continuidad de la ayuda a los pacientes durante las fases del tratamiento que ofrecemos. El tratamiento es individual grupal y familiar.</p>
+            <p class="">El objetivo principal es la de ayudar a aquellas personas que sufren la enfermedad de la adicción y trastornos emocionales, a sus familias, guiándolos en la recuperación y ayudándolos a reinsertarse en la sociedad.</p>
+            <p>Tras 20 años ofreciendo tratamiento para la adicción, la sede principal se encuentra en el municipio de Villa Nicolás Romero, Estado de México. Centro Villa Fénix A.C., cuenta con la infraestructura y personal profesionalizado que aseguran la continuidad de la ayuda a los pacientes durante las fases del tratamiento que ofrecemos. El tratamiento es individual grupal y familiar.</p>
         </div>
         <div class="col-sm-12 col-md-4">
             <ul class="list-style-none">
